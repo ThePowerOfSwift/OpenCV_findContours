@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad
 {
-    viewImage.image = [self greyMatFromUIImage:[UIImage imageNamed:@"images.jpg"]];
-    
+    viewImage.image = [self greyMatFromUIImage:[UIImage imageNamed:@"a.jpg"]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -72,14 +71,22 @@
     
     for(int i = 0; i < contours.size(); ++i) {
         size_t count = contours[i].size();
-        if(count < 80 || count > 500) continue; // （小さすぎる|大きすぎる）輪郭を除外
+        if(count < 300 || count > 500) continue; // （小さすぎる|大きすぎる）輪郭を除外
         
         cv::Mat pointsf;
         cv::Mat(contours[i]).convertTo(pointsf, CV_32F);
+        
         // 楕円フィッティング
-        cv::RotatedRect box = cv::fitEllipse(pointsf);
+        cv::RotatedRect bbox = cv::fitEllipse(pointsf);
+        cv::Rect box= bbox.boundingRect();
         // 楕円の描画
-        cv::ellipse(src_img, box, cv::Scalar(0,0,255), 2, CV_AA);
+        //cv::ellipse(src_img, bbox, cv::Scalar(0,0,255), 2, CV_AA);
+        cv::rectangle(src_img,box.tl(),box.br(),cv::Scalar(0,0,255),2);
+        
+        // 楕円フィッティング
+        //cv::RotatedRect box = cv::fitEllipse(pointsf);
+        // 楕円の描画
+        //cv::ellipse(src_img, box, cv::Scalar(0,0,255), 2, CV_AA);
     }
 
     

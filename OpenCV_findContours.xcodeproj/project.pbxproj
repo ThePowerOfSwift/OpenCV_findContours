@@ -24,6 +24,8 @@
 		27395C9C19742EDD0089BA59 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27395C9B19742EDD0089BA59 /* opencv2.framework */; };
 		27395CA5197438130089BA59 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27395CA4197438130089BA59 /* images.jpg */; };
 		27395CA7197438490089BA59 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27395CA6197438490089BA59 /* a.jpg */; };
+		27A2D7AC197567AB00F357ED /* kanzi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A2D7AB197567AB00F357ED /* kanzi2.png */; };
+		27A2D7AE1975680B00F357ED /* IMG_0079.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 27A2D7AD1975680B00F357ED /* IMG_0079.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		27395C9B19742EDD0089BA59 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv/platforms/ios/ios/opencv2.framework; sourceTree = "<group>"; };
 		27395CA4197438130089BA59 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		27395CA6197438490089BA59 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		27A2D7AB197567AB00F357ED /* kanzi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanzi2.png; sourceTree = "<group>"; };
+		27A2D7AD1975680B00F357ED /* IMG_0079.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0079.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				27395C7B19742EA50089BA59 /* ViewController.h */,
 				27395CA4197438130089BA59 /* images.jpg */,
 				27395CA6197438490089BA59 /* a.jpg */,
+				27A2D7AB197567AB00F357ED /* kanzi2.png */,
+				27A2D7AD1975680B00F357ED /* IMG_0079.JPG */,
 				27395C7C19742EA50089BA59 /* ViewController.mm */,
 				27395C7E19742EA50089BA59 /* Images.xcassets */,
 				27395C6D19742EA50089BA59 /* Supporting Files */,
@@ -240,6 +246,8 @@
 			files = (
 				27395C7F19742EA50089BA59 /* Images.xcassets in Resources */,
 				27395C7119742EA50089BA59 /* InfoPlist.strings in Resources */,
+				27A2D7AC197567AB00F357ED /* kanzi2.png in Resources */,
+				27A2D7AE1975680B00F357ED /* IMG_0079.JPG in Resources */,
 				27395CA5197438130089BA59 /* images.jpg in Resources */,
 				27395CA7197438490089BA59 /* a.jpg in Resources */,
 				27395C7A19742EA50089BA59 /* Main.storyboard in Resources */,
@@ -476,6 +484,7 @@
 				27395C9719742EA50089BA59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27395C9819742EA50089BA59 /* Build configuration list for PBXNativeTarget "OpenCV_findContoursTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +493,7 @@
 				27395C9A19742EA50089BA59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC8A94BA-B209-43E9-B8E3-44C3EEB165F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenCV_findContours</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>019886B9-3CBD-4D3B-BBAC-6DBF7FF0B4D0</key>
+		<string>ssh://github.com/aharenchie/number_plate.git</string>
+		<key>166C73CC-307C-45AB-857C-3B593626F540</key>
+		<string>https://github.com/Itseez/opencv.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenCV_findContours.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>019886B9-3CBD-4D3B-BBAC-6DBF7FF0B4D0</key>
+		<string>../..</string>
+		<key>166C73CC-307C-45AB-857C-3B593626F540</key>
+		<string>../../../opencv</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/aharenchie/number_plate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>019886B9-3CBD-4D3B-BBAC-6DBF7FF0B4D0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>166C73CC-307C-45AB-857C-3B593626F540</string>
+			<key>IDESourceControlWCCName</key>
+			<string>opencv</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>019886B9-3CBD-4D3B-BBAC-6DBF7FF0B4D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenCV_findContours</string>
+		</dict>
+	</array>
+</dict>
+</plist>
